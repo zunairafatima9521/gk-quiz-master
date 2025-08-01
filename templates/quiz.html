@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Question</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #d5dbe7;
+      padding: 60px 20px;
+      margin: 0;
+    }
+
+    .card {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #4b2e83;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      background: #f4f4f4;
+      padding: 12px 15px;
+      margin: 12px 0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    label:hover {
+      background: #e0e0e0;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 10px 20px;
+      background: #4b2e83;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background: #381c6b;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <form method="post">
+      <h2>{{ question.question_string }}</h2>
+      {% for opt in question.options %}
+        <label>
+          <input type="radio" name="option" value="{{ opt.option_id }}" required>
+          {{ opt.option_string }}
+        </label>
+      {% endfor %}
+      <input type="hidden" name="question_id" value="{{ question.question_id }}">
+      <button type="submit">Next</button>
+    </form>
+  </div>
+</body>
+</html>
+

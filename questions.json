@@ -1,0 +1,134 @@
+{
+  "1": [
+    {
+      "question_id": "1",
+      "question_string": "Which planet is known as the Red Planet?",
+      "correct_option": "c",
+      "options": [
+        { "option_id": "a", "option_string": "Earth" },
+        { "option_id": "b", "option_string": "Jupiter" },
+        { "option_id": "c", "option_string": "Mars" },
+        { "option_id": "d", "option_string": "Venus" }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "question_id": "2",
+      "question_string": "Who wrote the play 'Romeo and Juliet'?",
+      "correct_option": "a",
+      "options": [
+        { "option_id": "a", "option_string": "William Shakespeare" },
+        { "option_id": "b", "option_string": "Jane Austen" },
+        { "option_id": "c", "option_string": "Mark Twain" },
+        { "option_id": "d", "option_string": "Charles Dickens" }
+      ]
+    }
+  ],
+  "3": [
+    {
+      "question_id": "3",
+      "question_string": "Which country has the largest population in the world?",
+      "correct_option": "d",
+      "options": [
+        { "option_id": "a", "option_string": "United States" },
+        { "option_id": "b", "option_string": "India" },
+        { "option_id": "c", "option_string": "Russia" },
+        { "option_id": "d", "option_string": "China" }
+      ]
+    }
+  ],
+  "4": [
+    {
+      "question_id": "4",
+      "question_string": "What is the chemical symbol for gold?",
+      "correct_option": "a",
+      "options": [
+        { "option_id": "a", "option_string": "Au" },
+        { "option_id": "b", "option_string": "Ag" },
+        { "option_id": "c", "option_string": "Gd" },
+        { "option_id": "d", "option_string": "Go" }
+      ]
+    }
+  ],
+  "5": [
+    {
+      "question_id": "5",
+      "question_string": "In which year did World War II end?",
+      "correct_option": "b",
+      "options": [
+        { "option_id": "a", "option_string": "1939" },
+        { "option_id": "b", "option_string": "1945" },
+        { "option_id": "c", "option_string": "1918" },
+        { "option_id": "d", "option_string": "1965" }
+      ]
+    }
+  ],
+  "6": [
+    {
+      "question_id": "6",
+      "question_string": "What is the name of the longest river in South America?",
+      "correct_option": "a",
+      "options": [
+        { "option_id": "a", "option_string": "Amazon River" },
+        { "option_id": "b", "option_string": "Yangtze" },
+        { "option_id": "c", "option_string": "Nile" },
+        { "option_id": "d", "option_string": "Mississippi" }
+      ]
+    }
+  ],
+  "7": [
+    {
+      "question_id": "7",
+      "question_string": "What is the largest country in the world by land area?",
+      "correct_option": "d",
+      "options": [
+        { "option_id": "a", "option_string": "Brazil" },
+        { "option_id": "b", "option_string": "Indonesia" },
+        { "option_id": "c", "option_string": "China" },
+        { "option_id": "d", "option_string": "Russia" }
+      ]
+    }
+  ],
+    "8": [
+    {
+      "question_id": "8",
+      "question_string": "Who wrote the Harry Potter series?",
+      "correct_option": "c",
+      "options": [
+        { "option_id": "a", "option_string": "Rick Riordan" },
+        { "option_id": "b", "option_string": "C.S. Lewis" },
+        { "option_id": "c", "option_string": "J.K. Rowling" },
+        { "option_id": "d", "option_string": "Holly Jackson" }
+      ]
+    }
+  ],
+  "9": [
+    {
+      "question_id": "9",
+      "question_string": "What is the capital of Canada?",
+      "correct_option": "b",
+      "options": [
+        {"option_id": "a", "option_string": "Toronto"},
+        {"option_id": "b", "option_string": "Ottawa"},
+        {"option_id": "c", "option_string": "Vancouver"},
+        {"option_id": "d", "option_string": "Montreal"}
+      ]
+    }
+  ],
+  "10": [
+    {
+      "question_id": "10",
+      "question_string": "Which vitamin is produced when skin is exposed to sunlight?",
+      "correct_option": "b",
+      "options": [
+        {"option_id": "a", "option_string": "Vitamin C"},
+        {"option_id": "b", "option_string": "Vitamin D"},
+        {"option_id": "c", "option_string": "Vitamin A"},
+        {"option_id": "d", "option_string": "Vitamin B12"}
+      ]
+    }
+  ]
+
+  
+}

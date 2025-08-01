@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Start Quiz</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #d5dbe7;
+      margin: 0;
+      padding: 100px 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    .box {
+      background-color: #fff;
+      padding: 30px 40px;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #4b2e83;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      width: 90%;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #4b2e83;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #381c6b;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Enter Your Name to Start</h2>
+    <form method="get">
+      <input type="text" name="user" placeholder="Your name" required>
+      <br>
+      <button type="submit">Start Quiz</button>
+    </form>
+  </div>
+</body>
+</html>
